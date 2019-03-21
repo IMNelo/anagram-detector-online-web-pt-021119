@@ -16,8 +16,8 @@ class Anagram
     #You can compare two arrays using the ==.
     #Two arrays are equal if they contain the same elements, in the same order.
     #Use `.sort`, this will help in the comparison
-  def match(array_of_words)
-    array_of_words.select do |element|
+  def match(words_array)
+    words_array.select do |element|
       element.split("").sort == @word.split("").sort
 
     end
