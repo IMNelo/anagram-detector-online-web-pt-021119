@@ -4,7 +4,7 @@ class Anagram
 
   attr_accessor :word   #creates a writer & reader
 
-  def initialize(word)   
+  def initialize(word)
     @word = word    #instanciates a new instance of `word`
   end
 
